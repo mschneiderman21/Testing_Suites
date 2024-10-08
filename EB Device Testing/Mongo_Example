@@ -1,0 +1,53 @@
+{
+    "_id": {
+      "$oid": "66620d444a4a05a88883b70c"
+    },
+    "id": "A84041120187228C-OLD",
+    "bacnet": {},
+    "name": "Freezer LHT65",
+    "ref": {
+      "type": "zone",
+      "key": "bldg"
+    },
+    "type": "space-t",
+    "data": {
+      "dt": {
+        "$date": "2024-07-08T18:02:53.528Z"
+      },
+      "id": "A84041120187228C",
+      "src": {
+        "type": "lora",
+        "devEui": "A84041120187228C",
+        "deviceId": "eui-a84041120187228c",
+        "appId": "office-lab-ttn",
+        "vendor": "dragino",
+        "model": "lht65"
+      },
+      "extraData": {
+        "lora": {
+          "spf": 7,
+          "bandwidth": 125000,
+          "frequency": "905300000"
+        },
+        "signal": {
+          "rssi": -50,
+          "snr": 13.5,
+          "channel": 7
+        },
+        "battery": {
+          "volts": 3.057,
+          "status": 3
+        }
+      },
+      "payload": {
+        "temp": 74.52,
+        "internalTemp": 76.1,
+        "humidity": 52.8
+      },
+      "temp": 74.52,
+      "humidity": 52.8,
+      "down": true
+    },
+    "config": {},
+    "label": null
+  }
